@@ -118,6 +118,7 @@ let resetGame = function () {
   // -> reset the turn to player1
   // -> reset the color of the winner
   // -> enable "ROll" and "HOLD" buttons
+  // -> Hide the dice
 
   // 1- Reset current and total scores elements and variables
   curr0El.textContent = 0;
@@ -142,6 +143,9 @@ let resetGame = function () {
   btnHold.disabled = false;
   btnRoll.textContent = rollText;
   btnHold.textContent = holdText;
+
+  // hide the dice
+  dice.classList.add('hidden');
 };
 
 // clicking NEW GAME button
