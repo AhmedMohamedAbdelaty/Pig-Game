@@ -19,7 +19,7 @@ The Pig Game allows two players to take turns rolling a virtual dice. The object
 
 # Screenshot
 
-[![Pig Game in action](screenshot.gif)](screenshot.gif)
+[![Pig Game in action](screenshot.gif)](./screenshot.gif)
 
 # Challenges Overcome
 
@@ -31,7 +31,7 @@ The Pig Game allows two players to take turns rolling a virtual dice. The object
 
 Feel like rolling the dice yourself? Click here to try the Pig Game live!
 
-[link to live demo](videolink)
+[link to live demo](https://ahmedmohamedabdelaty.github.io/Pig-Game/)
 
 # Areas for Improvement
 
