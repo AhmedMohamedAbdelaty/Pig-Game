@@ -7,7 +7,7 @@ This is a simple dice game built with HTML, CSS, and JavaScript.
 
 # Description
 
-The Pig Game allows two players to take turns rolling a virtual dice. The objective is to reach a score of 100 before the opponent. Each roll adds the rolled value to the current score, but rolling a 1 resets the current score to zero. Players can choose to hold their current score and switch turns, or keep rolling to potentially score higher but risk losing everything if another 1 is rolled.
+The Pig Game allows two players to take turns rolling a virtual dice. The objective is to reach a score of 100 before the opponent. Each roll adds the rolled value to the current score, but rolling a 1 resets the current score of the player to zero and changes the turn to the opponent. Players can choose to hold their current score and switch turns, or keep rolling to potentially score higher but risk losing everything if 1 is rolled.
 
 # Features
 
