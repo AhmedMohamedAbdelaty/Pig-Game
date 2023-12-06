@@ -50,6 +50,10 @@ let calcCurrentScore = function (number) {
     turn === 0 ? (curr0 += number) : (curr1 += number);
   } else {
     turn === 0 ? (curr0 = 0) : (curr1 = 0);
+
+    // reset current score and change turns
+    document.getElementById(`current--${turn}`).textContent = 0;
+    changeTurn();
   }
   document.getElementById(`current--${turn}`).textContent =
     turn == 0 ? curr0 : curr1;
